@@ -1,5 +1,6 @@
 # Kubernetes Helm charts by @highwind
 [![Release Charts](https://github.com/highwind/helm-charts/actions/workflows/release.yml/badge.svg)](https://github.com/highwind/helm-charts/actions/workflows/release.yml)
+[![pages-build-deployment](https://github.com/highwind/helm-charts/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/highwind/helm-charts/actions/workflows/pages/pages-build-deployment)
 
 This is a Helm charts repository for Kubernetes by @highwind.
 
