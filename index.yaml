@@ -21,4 +21,16 @@ entries:
     urls:
     - https://github.com/highwind/helm-charts/releases/download/helm-test-0.1.0/helm-test-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-14T10:57:09.066469415Z"
+  prometheus-simple:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-07-14T13:10:37.775380848Z"
+    description: Simple Prometheus chart to use on Rancher Desktop
+    digest: 2cce9f0a0e4eff062eb80a6c6e2e3848ae49a872e3ec9b943f55cddbc545375e
+    icon: https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg
+    name: prometheus-simple
+    type: application
+    urls:
+    - https://github.com/highwind/helm-charts/releases/download/prometheus-simple-0.0.1/prometheus-simple-0.0.1.tgz
+    version: 0.0.1
+generated: "2022-07-14T13:10:37.77550785Z"
