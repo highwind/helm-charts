@@ -11,15 +11,4 @@ entries:
     urls:
     - https://github.com/highwind/helm-charts/releases/download/helm-test-0.1.0/helm-test-0.1.0.tgz
     version: 0.1.0
-  test3:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-04-19T13:25:04.813734673Z"
-    description: A Helm chart for Kubernetes
-    digest: 6c9eef0d3b17f03a9d9ff4921ba3ad35e663834620b9e3521c8a95db6dda9be0
-    name: test3
-    type: application
-    urls:
-    - https://github.com/highwind/helm-charts/releases/download/test3-0.1.0/test3-0.1.0.tgz
-    version: 0.1.0
 generated: "2022-04-19T13:45:30.716828544Z"
