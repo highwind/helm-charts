@@ -12,27 +12,6 @@ entries:
     urls:
     - https://github.com/highwind/helm-charts/releases/download/blue-green-0.0.1/blue-green-0.0.1.tgz
     version: 0.0.1
-  helm-test:
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-07-14T10:57:09.066456315Z"
-    description: A Helm chart for Kubernetes
-    digest: a3c3bc0146db3bcf6691eb223b5bfae06ca51ad60c7d3645e744868f89505945
-    name: helm-test
-    type: application
-    urls:
-    - https://github.com/highwind/helm-charts/releases/download/helm-test-0.1.1/helm-test-0.1.1.tgz
-    version: 0.1.1
-  - apiVersion: v2
-    appVersion: 1.16.0
-    created: "2022-04-19T13:45:30.716822744Z"
-    description: A Helm chart for Kubernetes
-    digest: c1a029f0ba8d49a5167999d82c12b386701c62a511fbc074445d7bb542d4a733
-    name: helm-test
-    type: application
-    urls:
-    - https://github.com/highwind/helm-charts/releases/download/helm-test-0.1.0/helm-test-0.1.0.tgz
-    version: 0.1.0
   prometheus-simple:
   - apiVersion: v2
     appVersion: latest
