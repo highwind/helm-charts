@@ -1,5 +1,17 @@
 apiVersion: v1
 entries:
+  blue-green:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2022-07-27T14:15:25.650170747Z"
+    description: Simple blue-green deployment
+    digest: 9f999c501f53821e34ed4300986455065e3eb1a686efdacdcff3b9335b73ce27
+    icon: https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg
+    name: blue-green
+    type: application
+    urls:
+    - https://github.com/highwind/helm-charts/releases/download/blue-green-0.0.1/blue-green-0.0.1.tgz
+    version: 0.0.1
   helm-test:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -33,4 +45,4 @@ entries:
     urls:
     - https://github.com/highwind/helm-charts/releases/download/prometheus-simple-0.0.1/prometheus-simple-0.0.1.tgz
     version: 0.0.1
-generated: "2022-07-14T13:10:37.77550785Z"
+generated: "2022-07-27T14:15:25.650203846Z"
