@@ -1,0 +1,7 @@
+apiVersion: v2
+name: blue-green
+description: Simple blue-green deployment
+type: application
+version: 0.0.1
+appVersion: "latest"
+icon: https://upload.wikimedia.org/wikipedia/commons/3/38/Prometheus_software_logo.svg

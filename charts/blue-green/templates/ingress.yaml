@@ -1,0 +1,35 @@
+{{- $fullName := .Release.Name -}}
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: {{ $fullName }}-ingress
+  labels:
+    app: {{ template "blue-green.name" . }}
+    chart: {{ template "blue-green.chart" . }}
+    release: {{ .Release.Name }}
+spec:
+  rules:
+  - host: {{ .Values.ingress.hostname }}
+    http:
+      paths:
+        - path: "/"
+          pathType: Prefix
+          backend:
+            service:
+              name: {{ $fullName }}-service-prod
+              port:
+                number: 9080
+  - host: {{ .Values.ingress.stagehostname }}
+    http:
+      paths:
+        - path: "/"
+          pathType: Prefix
+          backend:
+            service:
+              name: {{ $fullName }}-service-stage
+              port:
+                number: 9081
+  tls:
+  - hosts:
+    - {{ .Values.ingress.hostname }}
+    - {{ .Values.ingress.stagehostname }}
